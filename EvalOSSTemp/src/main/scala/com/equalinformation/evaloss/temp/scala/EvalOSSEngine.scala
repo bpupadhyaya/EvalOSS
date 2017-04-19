@@ -46,12 +46,12 @@ object EvalOSSEngine {
                                 IntermediateRating(evalParams(5), 90, 95, 95, 90)
                               )
                         )
-    val intermediateIP = List()
-    val finalIP = List()
+    val intermediateIofP = List()
+    val finalIofP = List()
     val ranking = Map()
 
     //TODO
-    
+
   }
 }
 
