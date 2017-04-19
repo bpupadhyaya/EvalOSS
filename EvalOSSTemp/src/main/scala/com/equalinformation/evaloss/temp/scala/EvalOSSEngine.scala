@@ -3,18 +3,18 @@ package com.equalinformation.evaloss.temp.scala
 /**
   * Created by bpupadhyaya on 4/18/2017.
   */
-case class IntermediateRating( name: String,
-                          expRating: Float,
-                          commRating: Float,
-                          docRating: Float,
-                          codeInfRating: Float
-                        )
-case class Product(name: String,
-                   r1: IntermediateRating,
-                   r2: IntermediateRating,
-                   r3: IntermediateRating,
-                   r4: IntermediateRating,
-                   r5: IntermediateRating
+case class IntermediateRating(  name: String,
+                                expRating: Float,
+                                commRating: Float,
+                                docRating: Float,
+                                codeInfRating: Float
+                            )
+case class Product( name: String,
+                    r1: IntermediateRating,
+                    r2: IntermediateRating,
+                    r3: IntermediateRating,
+                    r4: IntermediateRating,
+                    r5: IntermediateRating
                   )
 case class EvalParam(name: String, value: Float)
 object EvalOSSEngine {
@@ -46,7 +46,11 @@ object EvalOSSEngine {
                                 IntermediateRating(evalParams(5), 90, 95, 95, 90)
                               )
                         )
+    val intermediateIofP = List()
+    val finalIofP = List()
+    val ranking = Map()
 
+    //TODO - calculations
 
   }
 }
